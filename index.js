@@ -2,7 +2,7 @@
 
 function findMatching(drivers, str){
   return drivers.filter(function (el) {
-    return el.toLowerCase() === str.toLowerCase()
+    return el == str
   })
 }
 
