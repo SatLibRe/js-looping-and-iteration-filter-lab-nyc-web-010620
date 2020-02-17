@@ -7,7 +7,9 @@ function findMatching(drivers, str){
 }
 
 function fuzzyMatch(drivers, str){
-  console.log(str)
+  return drivers.filter(function (el){
+    return el
+  })
 }
 
 
